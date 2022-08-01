@@ -18,7 +18,7 @@ app.use(express.static(__dirname + '/public'));
 // home route
 app.get('/', (req, res) => {
   let data = {
-    dbstring: process.env.npm_package_db_connection
+    dbstring: process.env.DB_CONNECTION_STRING
   }
   res.render('index', data);
 });
