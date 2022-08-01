@@ -1,8 +1,11 @@
 {
-  "name": "minimal-starter",
+  "name": "node-frontend",
   "version": "1.0.0",
   "description": "A bare-minimum project starter",
   "main": "server.js",
+  "config": {
+    "db_connection": "<PLACEHOLDER_CONNECTION_STRING>"
+  },
   "scripts": {
     "start": "node server.js"
   },
